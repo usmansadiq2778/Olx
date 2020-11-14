@@ -1,0 +1,322 @@
+.color{
+  color:#002f34;
+}
+
+.header{
+  /* width: 90%; */
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 70px;
+  z-index: 9;
+  background:#f1f1f1 ;
+  /* background:rgb(247, 247, 247) ; */
+  box-shadow: 0px 2px 2px #dadada;
+  padding: 0px 1%;
+ }
+.header .logo{
+width: 50px;
+margin-right: 20px;
+}
+.header .logo img{
+  width: 100%;
+}
+.header .location{
+background:#fff ;
+border: 2px #002f34 solid;
+border-radius: 5px; 
+
+}
+.header .location .ico{
+padding: 10px;
+}
+.header .location .label{
+  flex: 1 !important;
+  padding: 10px;
+  border: 0px;
+}
+.header .location .arro{
+  flex: 1 !important;
+  padding: 10px;
+  border: 0px;
+  background: #fff;
+  
+}
+
+
+.header .search{
+ 
+
+  background: #fff;
+  border: 2px #002f34 solid;
+  border-radius: 5px;
+  flex: 2 !important;  
+  margin: 0px 15px;
+
+}
+
+.header .search .query{
+  flex: 1;
+  padding: 10px;
+  border: 0px;
+ 
+}
+
+.header .search .go{
+  flex: 1;
+  padding: 10px;
+  border: 0px;
+  background: #002f34;
+  max-width: 50px;
+}
+.header .search .goHovers{
+
+}
+.header .action{
+flex: 1;
+max-width: 180px;
+align-items: flex-end;
+justify-content: flex-end;
+}
+.header .action a{
+  /* color: #002f34; */
+  margin: 0px 20px 10px 0px;
+}
+
+.header .action .sell{
+  padding: 8px 14px;
+  border: 4px #ffa500 solid;
+  /* color: #002f34; */
+  text-align: center;
+  background: #fff;
+  border-radius: 30px;
+  box-shadow: 0px 3px 5px #a9a9a9;
+
+}
+
+.header .action .sell .ico{
+  
+  margin-right: 4px;
+}
+.header .action .sell:hover{
+  
+}
+
+.hnav{
+  
+  top: 70px;
+  left: 0px;
+  right: 0px;
+  height: 50px;
+  z-index: 8;
+  background:#fff ;
+  /* background:rgb(247, 247, 247) ; */
+  box-shadow: 0px 2px 2px rgb(218 218 218 /36%);
+  /* padding: 0px 0%; */
+ }
+
+ .hnav .view-cates{
+   border: 0px;
+   padding: 10px 15px;
+   background: rgba(0,0,0,0);
+
+ } 
+ .hnav .view-cates .arro{
+  /* flex: 1 !important; */
+  padding:3px 10px;
+  border: 0px;
+  background:rgba(0,0,0,0);
+  margin-left:10px ;
+  
+ }
+ .hnav .view-cates:hover{
+background: #f1f1f1;
+ }
+ .hnav a{
+padding: 7px;
+margin-right: 2px;
+text-decoration: none;
+ }
+ .hnav a:hover{
+   color: rgb(116, 253, 253);
+  padding: 7px;
+  margin-right: 2px;
+  text-decoration: none;
+   }
+.hclr{
+  height: 120px;
+}
+
+
+.home-page{
+  padding: 30px 1%;
+  /* flex-wrap: wrap; */
+}
+.add-list{
+  /* padding: 30px 1%; */
+  flex-wrap: wrap;
+}
+
+ .add-item{
+  min-width: 220px;
+ min-height: 260px;
+ max-width: 220px;
+ max-height: 260px;
+ flex-basis: 20%;
+ margin: 7px;
+ border: 1px solid #ddd;
+ padding: 8px 5px;
+
+
+ }  
+ .add-item .poster{
+height:160px;
+}  
+.add-item .poster.placeholder {
+   
+}  
+.add-item .title{
+  margin: 10px 0px;
+}  
+.add-item .title.placeholder{
+   height: 25px;
+   /* margin: 10px 0px; */
+   width: 75%;
+}  
+.add-item .tagline{
+   
+}  
+.add-item .tagline.placeholder{
+ height: 20px;
+ width: 90%;  
+}
+.add-item .ftr{
+  /* height: 20px;
+  width: 90%; */
+margin-top: 15px;
+
+}
+/* .add-item .ftr.placeholder{
+  
+} */
+.add-item .ftr .location{
+  flex: 2;
+}
+
+.add-item .ftr .location.placeholder{
+  height: 12px;
+  max-width:100px ;
+}
+.add-item .ftr .stamp{
+flex: 1;
+/* align-items: flex-end; */
+}
+.add-item .ftr .stamp.placeholder{
+  height: 0px;
+ 
+}
+
+
+.load-more{
+margin: 40px auto;
+display: table;
+border: 3px #012f34 solid;
+background: #fff;
+padding: 8px 16px ;
+border-radius: 10px;
+color: #002f34;
+}
+.load-more:hover{
+  box-shadow: inset -1px -1px 0px 25px #012f34;
+  color: #fff ;
+}
+
+.app-ribbon{
+padding: 0px 1%;
+background: #f9f9f9
+}
+app-ribbon .img{
+
+}
+app-ribbon .img img{
+
+}
+app-ribbon .meta{
+  
+}
+app-ribbon .meta .title{
+  
+}
+app-ribbon .meta .slogan{
+  
+}
+
+app-ribbon .links{
+  
+}
+app-ribbon .links .title{
+  margin-bottom: 20px;
+}
+app-ribbon .links .as{
+  
+}
+app-ribbon .links a{
+  margin: 0px 10px 0px 0px;
+}
+app-ribbon .links a:hover{
+  
+}
+
+.footer{
+  padding: 0px 1%;
+  background: #f1f1f1;
+  border-top: 1px #ccc solid;
+}
+.footer .block{
+flex:1;
+padding: 20px 0px 50px 0px ;
+}
+.footer .block a{line-height: 1.6;}
+.footer .block .title{
+margin-bottom: 10px;
+}
+.nolink{
+text-decoration: none;
+}
+.nolinkh:hover{
+  color: rgb(0, 231, 231);
+  }
+
+
+  .footerb{
+padding: 15px 2%;
+background: #012f34;
+  }
+  .footerb h2{
+    flex: 1;
+  }
+  .footerb h2.r{
+text-align: right;
+  }
+  .bg{
+    height: 85%;
+    width: 96%;
+    text-align: center;
+    padding: 0px 2%
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,120 @@
+body{
+font-size: 14px;
+}
+h1,h2,h3,h4,h5,h6{
+padding: 0px;
+margin: 0px;
+font-weight: normal;
+}
+.fixed{
+    position: fixed;
+}
+.bl{
+    display: block;
+
+}
+.ibl{
+    display: inline-block;
+}
+
+.rel{
+    position: relative;
+}
+.abs{
+    position: absolute;
+}
+.sticky{
+    position: sticky;
+}
+input, button, select, textarea{
+    outline: none;
+}
+
+
+
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+.aic{
+    align-items: center;
+}
+
+.font{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+}
+.fontl{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.fontb{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;  
+}
+.fontc{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 510;  
+}
+.b{
+    font-weight: bold;
+}
+.s12{font-size: 12px;}
+.s13{font-size: 13px;}
+.s14{font-size: 14px;}
+.s15{font-size: 15px;}
+.s16{font-size: 16px;}
+.s17{font-size: 17px;}
+.s18{font-size: 18px;}
+.s19{font-size: 19px;}
+.s20{font-size: 20px;}
+.s21{font-size: 21px;}
+.s22{font-size: 22px;}
+.s23{font-size: 23px;}
+.s24{font-size: 24px;}
+.s25{font-size: 25px;}
+.s30{font-size: 30px;}
+
+
+button{
+    cursor: pointer;
+}
+.noul{
+    /* text-decoration:underline ; */
+
+    -webkit-text-decoration-line: underline;
+      /* Safari */
+    text-decoration-line: underline; 
+}
+ 
+.noul:hover{
+    text-decoration:none;
+}
+.cfff{
+    color:#ffff !important;
+}
+
+.anim{
+transition: all 0.2s linear 0s;
+}
+
+
+.placeholder{
+background: #ccc;
+animation: placeholder 1s linear  infinite ;
+}
+@keyframes placeholder{
+    /* 0%{opacity: 0.5;} */
+    50%{opacity:0.5;}
+}
+
+
+.imgg{
+    max-width: 100%;
+    max-height: 100%;
+    min-height: 100%;
+}
+
